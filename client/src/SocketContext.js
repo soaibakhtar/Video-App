@@ -5,8 +5,8 @@ import Peer from "simple-peer"
 
 const SocketContext = createContext()
 
-const socket = io('http://localhost:5000/')
-// const socket = io('https://video-lfh8uddd0-soaibakhtar.vercel.app/')
+// const socket = io('http://localhost:5000/')
+const socket = io('https://video-app-backend-bmtw.onrender.com/')
 
 const ContextProvider = ({children}) => {
 
